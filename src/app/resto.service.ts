@@ -5,6 +5,7 @@ import {HttpClient} from '@angular/common/http';
 })
 export class RestoService {
   url="http://localhost:3000/restaurants";
+  rootUrl="http://localhost:3000/";
   constructor(private http: HttpClient) {}
   getList(){
     return (this.http.get(this.url))
@@ -15,5 +16,14 @@ export class RestoService {
   }
   deleteResto(id){
     return this.http.delete(`${this.url}/${id}`); 
+  }
+  getCurrentResto(id){
+    return this.http.get(`${this.url}/${id}`); 
+  }
+  updateResto(id, data){
+    return this.http.put(`${this.url}/${id}`,data)
+  }
+  register(data){
+    return this.http.post(this.rootUrl+'users',data)
   }
 }
