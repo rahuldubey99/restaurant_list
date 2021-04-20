@@ -1,0 +1,54 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC restaurant",
+      "address": "noida sector 50",
+      "email": "kfc@test.com"
+    },
+    {
+      "id": 2,
+      "name": "OM sweets",
+      "address": "Delhi sector 50",
+      "email": "om@test.com"
+    },
+    {
+      "id": 3,
+      "name": "OM jai bhole",
+      "address": "Delhi sector 3",
+      "email": "omjaibhole@test.com"
+    },
+    {
+      "name": "Subway",
+      "email": "subway@test.com",
+      "address": "noida sector 120",
+      "id": 4
+    },
+    {
+      "name": "natural food",
+      "email": "natural@test.com",
+      "address": "greater noida",
+      "id": 5
+    },
+    {
+      "name": "Tulsi food corner",
+      "email": "tulsi@test.com",
+      "address": "Noida city center",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Rahul",
+      "email": "rahul@test.com",
+      "password": "root",
+      "id": 1
+    },
+    {
+      "name": "james",
+      "email": "james@test.com",
+      "password": "james",
+      "id": 2
+    }
+  ]
+}
